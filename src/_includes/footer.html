@@ -5,31 +5,10 @@
         <div class="col-sm-3">
           <div class="row">
             <div class="col-md-6">
-              <img src="./assets/img/terre-fenetres.png" alt="logo terres de fenêtre">
+              <img src="{{site.baseurl}}/assets/img/terre-fenetres.png" alt="logo terres de fenêtre">
             </div>
             <div class="col-md-6">
-              <img src="./assets/img/logo-certif.png" alt="logo qualicot">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3">
-          <div class="row">
-            <div class="col-md-6">
-              <img src="./assets/img/logo-eurase.png" alt="logo eurasewaa" style="object-fit: cover;">
-            </div>
-            <div class="col-md-6">
-              <img src="./assets/img/logo-nf.png" alt="logo nf">
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="row">
-            <div class="col-md-6">
-              <img src="./assets/img/logo-france.png" alt="logo france">
-            </div>
-            <div class="col-md-6">
-              <img src="./assets/img/logo-qualibat-rge.png" alt="logo qualibat rge">
+              <img src="{{site.baseurl}}/assets/img/logo-certif.png" alt="logo qualicot">
             </div>
           </div>
         </div>
@@ -37,10 +16,31 @@
         <div class="col-sm-3">
           <div class="row">
             <div class="col-md-6">
-              <img src="./assets/img/logo-quali-marine.png" alt="logo qualibat rge">
+              <img src="{{site.baseurl}}/assets/img/logo-eurase.png" alt="logo eurasewaa" style="object-fit: cover;">
             </div>
             <div class="col-md-6">
-              <img src="./assets/img/logo-budendorf.png" alt="logo loogo bubendorff">
+              <img src="{{site.baseurl}}/assets/img/logo-nf.png" alt="logo nf">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="{{site.baseurl}}/assets/img/logo-france.png" alt="logo france">
+            </div>
+            <div class="col-md-6">
+              <img src="{{site.baseurl}}/assets/img/logo-qualibat-rge.png" alt="logo qualibat rge">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="{{site.baseurl}}/assets/img/logo-quali-marine.png" alt="logo qualibat rge">
+            </div>
+            <div class="col-md-6">
+              <img src="{{site.baseurl}}/assets/img/logo-budendorf.png" alt="logo loogo bubendorff">
             </div>
           </div>
         </div>
@@ -50,28 +50,28 @@
       <div class="col-sm-12 small-screen">
         <ul class="bxslider2">
           <li>
-            <img src="./assets/img/terre-fenetres.png" alt="logo terres de fenêtre" width="200">
+            <img src="{{site.baseurl}}/assets/img/terre-fenetres.png" alt="logo terres de fenêtre" width="200">
           </li>
           <li>
-            <img src="./assets/img/logo-certif.png" alt="logo qualicot">
+            <img src="{{site.baseurl}}/assets/img/logo-certif.png" alt="logo qualicot">
           </li>
           <li>
-            <img src="./assets/img/logo-eurase.png" alt="logo eurasewaa" style="object-fit: cover;">
+            <img src="{{site.baseurl}}/assets/img/logo-eurase.png" alt="logo eurasewaa" style="object-fit: cover;">
           </li>
           <li>
-            <img src="./assets/img/logo-nf.png" alt="logo nf">
+            <img src="{{site.baseurl}}/assets/img/logo-nf.png" alt="logo nf">
           </li>
           <li>
-            <img src="./assets/img/logo-france.png" alt="logo france">
+            <img src="{{site.baseurl}}/assets/img/logo-france.png" alt="logo france">
           </li>
           <li>
-            <img src="./assets/img/logo-qualibat-rge.png" alt="logo qualibat rge">
+            <img src="{{site.baseurl}}/assets/img/logo-qualibat-rge.png" alt="logo qualibat rge">
           </li>
           <li>
-            <img src="./assets/img/logo-quali-marine.png" alt="logo qualibat rge">
+            <img src="{{site.baseurl}}/assets/img/logo-quali-marine.png" alt="logo qualibat rge">
           </li>
           <li>
-            <img src="./assets/img/logo-budendorf.png" alt="logo loogo bubendorff">
+            <img src="{{site.baseurl}}/assets/img/logo-budendorf.png" alt="logo loogo bubendorff">
           </li>
         </ul>
       </div>
@@ -87,27 +87,27 @@
       <div class="col-lg-8 col-md-12">
         <div class="row">
           <div class="col-md-6" style="display: flex; justify-content: center; align-items: center">
-            <a href="{% link accueil.html %}" title="CFV Conception Fenêtres & Vérandas"><img src="./assets/img/logo.png"
+            <a href="{{ site.baseurl }}/" title="CFV Conception Fenêtres & Vérandas"><img src="{{site.baseurl}}/assets/img/logo.png"
                 class="img-responsive logo-cfv" alt="logo CFV"></a>
           </div>
 
           <div class="col-md-6" style="display: flex; justify-content: center; align-items: center; margin-top: 1rem;">
             <ul class="" style="margin-bottom: 0;">
-              <li><a class="active" href="{% link accueil.html %}" title="Accueil"> Accueil</a></li>
+              <li><a class="active" href="{{ site.baseurl }}/" title="Accueil"> Accueil</a></li>
               <li>
-                <a class=""href="{% link notre-entreprise.html %}" title="Notre entreprise CFV">Notre entreprise CFV</a>
+                <a class=""href="{{ site.baseurl }}/notre-entreprise" title="Notre entreprise CFV">Notre entreprise CFV</a>
               </li>
               <li>
-                <a class="" href="{% link nos-verandas.html %}" title="Nos vérandas">Nos vérandas</a>
+                <a class="" href="{{ site.baseurl }}/nos-verandas" title="Nos vérandas">Nos vérandas</a>
               </li>
               <li>
-                <a class="" href="{% link contact.html %}" title="Contact">Contact</a>
+                <a class="" href="{{ site.baseurl }}/contact" title="Contact">Contact</a>
               </li>
               <li>
-                <a class="" href="{% link veranda-yvelines.html %}" title="Véranda Yvelines">Véranda Yvelines</a>
+                <a class="" href="{{ site.baseurl }}/veranda-yvelines" title="Véranda Yvelines">Véranda Yvelines</a>
               </li>
               <li class="devis-button-footer">
-                <a class="" href="{% link devis.html %}" title="Devis gratuit">Devis gratuit</a>
+                <a class="" href="{{ site.baseurl }}/devis" title="Devis gratuit">Devis gratuit</a>
               </li>
             </ul>
 
@@ -127,15 +127,15 @@
 </footer>
 
 
-<script src="./assets/ressources/js/jquery-1.11.0.min.js"></script>
-<script src="./assets/ressources/js/bootstrap.min.js"></script>
-<!-- <script src="./assets/https://use.fontawesome.com/24b7f338c4.js"></script> -->
-<script src="./assets/ressources/js/lightbox-2.6.min.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/assets/ressources/js/jquery-1.11.0.min.js"></script>
+<script src="{{site.baseurl}}/assets/ressources/js/bootstrap.min.js"></script>
+<!-- <script src="{{site.baseurl}}/assets/https://use.fontawesome.com/24b7f338c4.js"></script> -->
+<script src="{{site.baseurl}}/assets/ressources/js/lightbox-2.6.min.js" type="text/javascript"></script>
 
-<script src="./assets/ressources/js/waypoints.min.js"></script>
-<script src="./assets/ressources/js/jquery.counterup.min.js"></script>
+<script src="{{site.baseurl}}/assets/ressources/js/waypoints.min.js"></script>
+<script src="{{site.baseurl}}/assets/ressources/js/jquery.counterup.min.js"></script>
 
-<script type="text/javascript" src="./assets/ressources/js/bxslider.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/ressources/js/bxslider.min.js"></script>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"
@@ -143,6 +143,6 @@
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-<script src="./assets/js/index.js"></script>
-<script src="./assets/js/formSubmit.js"></script>
+<script src="{{site.baseurl}}/assets/js/index.js"></script>
+<script src="{{site.baseurl}}/assets/js/formSubmit.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>

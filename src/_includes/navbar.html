@@ -30,7 +30,7 @@
     <div class="container">
       <div class="row header1">
         <div class="col-sm-2">
-          <a href="{% link accueil.html %}" title="CFV Conception Fenêtres &amp; Vérandas"><img src="./assets/img/logo.png"
+          <a href="{{ site.baseurl }}/" title="CFV Conception Fenêtres &amp; Vérandas"><img src="{{site.baseurl}}/assets/img/logo.png"
               class="img-responsive logo-cfv" alt="logo CFV"></a>
         </div>
         <div class="col-sm-6 navigation text-left">
@@ -46,18 +46,18 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="">
-                <li><a class="active" href="{% link accueil.html %}" title="Accueil">Accueil</a></li>
+                <li><a class="active" href="{{ site.baseurl }}/" title="Accueil">Accueil</a></li>
                 <li>
-                  <a class=""href="{% link notre-entreprise.html %}" title="Notre entreprise CFV">Notre entreprise CFV</a>
+                  <a class=""href="{{ site.baseurl }}/notre-entreprise" title="Notre entreprise CFV">Notre entreprise CFV</a>
                 </li>
                 <li>
-                  <a class="" href="{% link nos-verandas.html %}" title="Nos vérandas">Nos vérandas</a>
+                  <a class="" href="{{ site.baseurl }}/nos-verandas" title="Nos vérandas">Nos vérandas</a>
                 </li>
                 <li>
-                  <a class="" href="{% link contact.html %}" title="Contact">Contact</a>
+                  <a class="" href="{{ site.baseurl }}/contact" title="Contact">Contact</a>
                 </li>
                 <li>
-                  <a class="devis-button" title="Devis gratuit" href="{% link devis.html %}">Devis gratuit</a>
+                  <a class="devis-button" title="Devis gratuit" href="{{ site.baseurl }}/devis">Devis gratuit</a>
                 </li>
               </ul>
             </div>
@@ -65,7 +65,7 @@
         </div>
 
         <div class="col-sm-2">
-          <img src="./assets/img/logo-lounge.png" class="logo-lounge" alt="logo lounge">
+          <img src="{{site.baseurl}}/assets/img/logo-lounge.png" class="logo-lounge" alt="logo lounge">
         </div>
       </div>
     </div>
