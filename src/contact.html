@@ -1,0 +1,149 @@
+---
+layout: default
+permalink: /contact
+title: Remplissez le formulaire de contact pour plus d'informations
+description: "Pour des renseignements complémentaires, contactez-nous en quelques instants via notre  formulaire en ligne, par mail, au 01 39 74 68 67 ou sur place."
+keywords:
+---
+
+<section class="slide">
+  <div class="outer"></div>
+  <div class="container text-center">
+
+    <h1 class="title-slide">Contactez-nous</h1>
+
+  </div>
+</section>
+<section class="five">
+
+
+  <div class="container">
+    <nav class="fil-ariane">
+      <ul>
+        <li><a href="{% link accueil.html %}" title="Accueil">Accueil</a></li>
+        <li>&gt;</li>
+        <li><a href="#" title="Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="row contact-title-info">
+      <div class="col-md-3 col-sm-6">
+        <p><i class="fas fa-phone-alt custom-icon" fill="#ffde62"></i> <b>Téléphone</b></p>
+        <a style="text-align: center;" href="tel:0185537895" title="0185537895">
+          <p style="text-align: center;">01 85 53 78 95</p>
+        </a>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <p><i class="fa fa-envelope custom-icon"></i> <b>Email</b></p>
+        <a style="text-align: center;" href="mailto:cfv.commercial@orange.fr" title="cfv.commercial@orange.fr">
+          <p style="word-wrap: break-word; text-align:center;">cfv.commercial@orange.fr</p>
+        </a>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <p><i class="fa fa-map-marker custom-icon"></i> <b>Adresse</b></p>
+        <p>47 QUAI MAURICE RIQUIEZ, 91100 CORBEIL-ESSONNES</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <p><i class="fas fa-clock custom-icon"></i> <b>Horaires d'ouverture</b></p>
+        <p>lun - ven de 9h à 18h</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 contact">
+
+        <h2>Rester en contact</h2>
+        <form class="contact_content-form" id="contactForm" method="post" action="https://jgviaboye9.execute-api.eu-west-3.amazonaws.com/prod/notify">
+          <input type="hidden" name="lang" value="fr" />
+          <input type="hidden" name="redirectUrl" value="/message-envoye" />
+          <input type="hidden" name="type" value="contact" />
+          <input type="hidden" name="website" value="" />
+          <input type="hidden" name="lang" value="fr" />
+          <input type="hidden" name="firstName" value="" />
+          <input type="hidden" name="key" value="6LcxAX0rAAAAAOsrraz1P-ooa_R1k0DRFwcax6cL" />
+          <div class="form-group has-feedback ">
+            <!-- <label for="lastname">Nom</label> -->
+            <div class="lstname">
+              <input type="text" class="form-control " id="lastname" name="lastname" value="" placeholder="Nom *">
+            </div>
+          </div>
+
+          <div class="form-group has-feedback ">
+            <!-- <label for="email">E-mail</label> -->
+            <div class="bgemail">
+              <input type="text" class="form-control " id="email" name="email" value="" placeholder="E-mail *">
+            </div>
+          </div>
+          <div class="form-group has-feedback ">
+            <!-- <label for="phone">Téléphone</label> -->
+            <div class="bgtelephone">
+              <input type="text" class="form-control " id="phone" name="phone" value="" placeholder="Téléphone *">
+            </div>
+          </div>
+
+
+
+          <div class="form-group has-feedback ">
+            <!-- <label for="message">Message</label> -->
+            <div class="bgmessage">
+              <textarea rows="6" name="message" class="form-control" id="message" placeholder="Message *"></textarea>
+            </div>
+          </div>
+          <br>
+
+
+          <div class="form-group has-feedback pseudoForm">
+            <label for="form_pseudo">Pseudo</label> <input type="text" name="pseudo" id="form_pseudo" value=""
+              class="form-control" placeholder="Pseudonyme">
+          </div>
+          <div class="">
+            <p id="obligatoire" style="color:#000">(*) Champs obligatoires</p>
+          </div>
+
+          <div class="col-md-12">
+            <div class="checkbox d-flex mb-2">
+              <input name="condition" type="checkbox" style="
+                  height: 20px;
+                  width: 20px;
+                  vertical-align: middle;
+                  margin-right: 10px;
+                  margin-top: -1px;
+                " />
+              <span class="contact_content-form--label" style="font-size: 14px; color: #000">
+                En utilisant ce formulaire, vous acceptez le stockage et la
+                gestion de vos données par ce site *
+              </span>
+              <i class="fa fa-info-square" aria-hidden="true"></i>
+            </div>
+            <div id="contact-form-response"></div>
+            <div class="form-group d-flex justify-content-center">
+              <div class="g-recaptcha" data-sitekey="6LcxAX0rAAAAANTNti4MKQGeCDSKX2i4jRypssyd"></div>
+              <br />
+              <input style="display: none" type="submit" value="Submit" class="wpcf7-wpcf7-submit" />
+            </div>
+          </div>
+
+          <div class="buttondevis text-center">
+
+            <button type="submit" name="contact" class="button submit" title="Envoyer">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="carte-maps">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.946947242756!2d2.4874791156656486!3d48.610858779263964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e6d2dd46b289%3A0xc1afb13e5b7ad8dd!2s47%20Quai%20Maurice%20Riquiez%2C%2091100%20Corbeil-Essonnes!5e0!3m2!1sfr!2sfr!4v1688134202451!5m2!1sfr!2sfr"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+
+
+
+
+
+

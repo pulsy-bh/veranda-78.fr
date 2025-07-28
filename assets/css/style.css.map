@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss"
+	],
+	"sourcesContent": [
+		".logo-lounge{\r\n  width: 100%;\r\n  height: 100px;\r\n  margin: auto;\r\n  object-fit: contain\r\n}\r\n\r\n\r\n.d-flex{\r\n  display: flex !important;\r\n}\r\n\r\n\r\n\r\n@media (max-width:1200px) {\r\n  .details{\r\n    left: 20px !important;\r\n  }\r\n  \r\n}\r\n\r\n@media (max-width:990px) {\r\n  .inner-flexbox{\r\n    width: 100% !important;\r\n  }\r\n  \r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,YAAY,AAAA,CACV,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,KAAK,CACb,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,OACd,CAAC,AAGD,AAAA,OAAO,AAAA,CACL,OAAO,CAAE,eAAe,CACzB,AAID,MAAM,oBACJ,CAAA,AAAA,QAAQ,AAAA,CACN,IAAI,CAAE,eAAe,CACtB,CAAA,AAIH,MAAM,mBACJ,CAAA,AAAA,cAAc,AAAA,CACZ,KAAK,CAAE,eAAe,CACvB,CAAA"
+}

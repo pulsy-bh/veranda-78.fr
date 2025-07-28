@@ -1,0 +1,404 @@
+section.seo {
+  padding: 70px 0 70px;
+}
+
+section.seo h1 {
+  font-size: 45px;
+}
+
+section.seo h2 {
+  font-size: 36px;
+}
+
+section.seo h3 {
+  font-size: 24px;
+}
+
+
+section.seo h4 {
+  font-size: 18px;
+}
+
+.call-to-action-btn {
+  color: #fff;
+  background-color: #ccc;
+  border-color: #eee;
+  padding: 15px;
+  border-radius: 2px;
+  font-size: 18px;
+  line-height: normal;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.call-to-action-btn:hover {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-margin {
+  margin-top: 30px;
+}
+
+.call-to-action {
+  position: relative;
+  z-index: 1;
+  border: 1px solid #eee;
+}
+
+
+.call-to-action-inner {
+  padding: 28px 28px 27px 31px;
+  background-color: #fff;
+  min-height: 110px;
+}
+
+.call-to-action-inner:before,
+.call-to-action-inner:after {
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  height: 20%;
+  max-width: 300px;
+  max-height: 100px;
+  position: absolute;
+  content: '';
+  z-index: -1;
+  -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.call-to-action-inner:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header1 .navigation {
+  flex: 1;
+}
+
+.header1 .navigation nav a {
+  margin-left: 5px;
+}
+
+nav a.devis-button::before {
+  display: none;
+}
+
+nav a.devis-button {
+  padding: 5px;
+}
+
+.titre-footer {
+  font-size: 35px;
+  color: #fff;
+}
+
+.pre-reservation form .lstname::before,
+.pre-reservation form .bgtelephone::before,
+.pre-reservation form .bgemail::before,
+.pre-reservation form .bgparticulier::before,
+.pre-reservation form ::placeholder,
+.lstname::before,
+.bgemail::before,
+.bgtelephone::before,
+.bgmessage::before,
+.pre-contact ::placeholder,
+.contact ::placeholder {
+  color: #000;
+}
+
+header .pre-reservation .button {
+  text-transform: uppercase;
+}
+
+.pre-reservation,
+#pre-contact,
+.contact,
+.devis {
+  position: relative;
+}
+
+.champs-obligatoire {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+}
+
+.champs-obligatoire #obligatoire {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.two.choisir {
+  position: relative;
+  overflow: hidden;
+}
+
+.two.choisir .container {
+  position: inherit;
+  z-index: 2;
+}
+
+.slide {
+  position: relative;
+}
+
+section.slide h1.title-slide {
+  position: relative;
+  z-index: 2;
+  color: #ffff;
+}
+
+.outer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.card-row {
+  margin-bottom: 20px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.card {
+  min-height: 430px;
+}
+
+.first-section-footer {
+  display: flex;
+
+}
+
+.small-screen {
+  display: none;
+}
+
+.contact-title-info>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title-info>div>p,
+.contact-title-info>div a {
+  text-align: center;
+}
+
+.fil-ariane {
+  padding: 20px 10px;
+  transform: translateY(-50px);
+}
+
+.fil-ariane ul li a {
+  position: relative;
+  text-decoration: underline;
+  font-size: large;
+  color: #000;
+}
+
+.fil-ariane ul li a::before {
+  display: none;
+}
+
+.fil-ariane ul li:last-child a {
+  color: #9e9a9a;
+  text-decoration: none;
+}
+
+.group-rgpd.has-feedback .form-control-feedback {
+  bottom: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer li a.active {
+  color: #01803b;
+}
+
+section.one.choisir h2,
+section.two.choisir h2,
+section.one.garanties h2,
+section.one.entreprise h2 {
+  position: relative;
+}
+
+section.one.choisir h2::before,
+section.two.choisir h2::before,
+section.one.garanties h2::before,
+section.one.entreprise h2::before {
+  position: absolute;
+  content: '';
+  left: 50%;
+  width: 70px;
+  height: 2px;
+  transform: translateX(-50%);
+  top: -10px;
+  background-color: #01803b;
+  margin: 0;
+}
+
+.second-section-footer {
+  margin-bottom: 45px;
+}
+
+.none-full {
+  display: none;
+}
+
+.block-picto {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-line {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.produits-picto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.produits-picto span,
+.produits-picto span img {
+  width: 32px;
+  height: 32px;
+}
+
+.produits-picto p {
+  margin: 0;
+  flex: 1;
+}
+
+
+@media(max-width: 992px) {
+  .block-icon-caption {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+@media(max-width: 767px) {
+  .row {
+      margin: 0;
+  }
+
+  .one-line {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .none-full {
+      display: block;
+  }
+
+  .none-responsive {
+      display: none;
+  }
+
+  .header1 {
+      display: block;
+  }
+
+  .logo-container {
+      margin-bottom: 20px;
+  }
+
+  .navbar-collapse.in,
+  .navbar-toggle .icon-bar {
+      background-color: #fff;
+  }
+
+  .block-icon-caption {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+
+  .navbar-toggle {
+      background-color: #01803b;
+  }
+
+  .logo-lounge {
+      display: none;
+  }
+
+  .block-icon-modern.block-icon-secondary,
+  .block-icon-modern.block-icon-primary {
+      min-height: auto;
+  }
+
+  .card-row {
+      margin-bottom: 0;
+  }
+
+  .card {
+      min-height: auto;
+  }
+
+  .inner-flexbox {
+      width: 100%;
+  }
+
+  .small-screen {
+      display: block;
+  }
+
+  .full-screen {
+      display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .flexbox-text {
+      width: 100% !important;
+  }
+}

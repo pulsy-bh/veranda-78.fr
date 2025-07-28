@@ -1,0 +1,191 @@
+---
+layout: default
+permalink: /devis
+title: Estimez vos coûts gratuitement via le formulaire de devis en ligne
+description: "Que ce soit pour un portail, des volets ou encore une véranda personnalisée, estimez vos coûts en quelques instants en remplissant le formulaire devis en ligne."
+keywords:
+---
+
+<section class="slide">
+  <div class="outer"></div>
+  <div class="container text-center">
+    <h1 class="title-slide">Obtenez votre devis gratuit</h1>
+
+  </div>
+
+</section>
+
+<section class="five devis">
+
+  <div class="container">
+    <nav class="fil-ariane">
+      <ul>
+        <li><a href="{% link accueil.html %}" title="Accueil">Accueil</a></li>
+        <li>&gt;</li>
+        <li><a href="#" title="Devis">Devis</a></li>
+      </ul>
+    </nav>
+    <div id="devis">
+
+
+
+
+
+      <div class="row">
+        <div class="col-sm-12">
+          <form role="form" id="devisForm" method="post" action="https://jgviaboye9.execute-api.eu-west-3.amazonaws.com/prod/notify">
+            <input type="hidden" name="redirectUrl" value="/message-envoye" />
+            <input type="hidden" name="type" value="devis" />
+            <input type="hidden" name="website" value="" />
+            <input type="hidden" name="lang" value="fr" />
+            <input type="hidden" name="firstName" value="" />
+            <input type="hidden" name="key" value="6LcxAX0rAAAAAOsrraz1P-ooa_R1k0DRFwcax6cL">
+            <div class="row">
+              <div class="col-sm-5">
+                <fieldset>
+                  <legend>Coordonnées</legend>
+                  <input type="text" class="form-control pseudoform" id="pseudo" name="pseudo" value="">
+
+
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group has-feedback ">
+                        <label for="firstname">Prénom *</label>
+                        <input required="" type="text" class="form-control " id="firstname" name="firstname" value="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group has-feedback ">
+                        <label for="lastname">Nom *</label>
+                        <input required="" type="text" class="form-control " id="lastname" name="lastname" value="">
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group has-feedback ">
+                        <label for="address">Adresse *</label>
+                        <input type="text" class="form-control " id="address" name="address" value="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group has-feedback ">
+                        <label for="zipcode">Code postal *</label>
+                        <input required="" type="text" class="form-control " id="zipcode" name="zipcode" value="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group has-feedback ">
+                        <label for="city">Ville *</label>
+                        <input type="text" class="form-control" id="city" name="city" value="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group has-feedback ">
+                        <label for="email">E-mail *</label>
+                        <input required="" type="text" class="form-control " id="email" name="email" value="">
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group has-feedback ">
+                        <label for="phone">Téléphone *</label>
+                        <input required="" type="text" class="form-control " id="phone" name="phone" value="">
+                      </div>
+                    </div>
+                  </div>
+
+
+                </fieldset>
+
+              </div>
+
+              <div class="col-sm-6 col-sm-offset-1">
+                <fieldset>
+                  <legend>Demande</legend>
+
+
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <div class="form-group has-feedback ">
+                        <label for="form_select1">Surface approximative</label> <select name="select1" id="form_select1"
+                          class="form-control">
+                          <option>5 m² </option>
+                          <option>10 m²</option>
+                          <option>15 m²</option>
+                          <option>20 m²</option>
+                          <option>25 m²</option>
+                          <option>30 m²</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group has-feedback ">
+                        <label for="message">Message</label>
+                        <textarea rows="6" name="message" class="form-control" id="message"></textarea>
+                      </div>
+                    </div>
+                  </div>
+
+                </fieldset>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="form-group">
+                  <div class="g-recaptcha" data-sitekey="6LcxAX0rAAAAANTNti4MKQGeCDSKX2i4jRypssyd">
+                  </div>
+                  <br />
+                  <div id="devis-form-response"></div>
+              </div>
+              <div class="checkbox d-flex">
+                  <input name="condition" type="checkbox"
+                      style="height:2rem; width:2rem; vertical-align: middle;" />
+                  <span class="contact_space-form--label"
+                      style="color: #000 !important; font-size: 1.2rem; margin-left: 1rem;">
+                      En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                      de vos données par ce site *</span>
+                  <i class="fa fa-info-square" aria-hidden="true"></i>
+              </div>
+          </div>
+            <br>
+
+            <div class="">
+              <p id="obligatoire" style="color:#000">(*) Champs obligatoires</p>
+            </div>
+            <div class="buttondevis text-center">
+              <button type="reset" class="button annuler">Annuler</button>
+              <button type="submit" name="devis" value="envoyer" class="button success">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+</section>
