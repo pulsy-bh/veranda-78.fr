@@ -10,13 +10,20 @@
             </div>
             <h1>Installation de véranda dans le 78</h1>
             <h2 class="tit"><span>Devis simple et 100% gratuit</span></h2>
-            <form role="form" method="post" action="#carousel-header" class="p20">
+            <form role="form" id="devisForm" method="post" action="{{ site.data.company.url.notify }}">
+              <input type="hidden" name="redirectUrl" value="/message-envoye" />
+              <input type="hidden" name="type" value="devis" />
+              <input type="hidden" name="website" value="{{ site.data.company.website }}" />
+              <input type="hidden" name="lang" value="{{ site.data.company.lang }}" />
+              <input type="hidden" name="firstName" value="" />
+              <input type="hidden" name="condition" value="on" />
+              <input type="hidden" name="key" value="{{ site.data.company.recaptcha.server }}">
               <div class="row">
                 <div class="col-sm-3 clabel">
                   <div class="form-group has-feedback ">
                     <!-- <label for="form_lastname">Nom</label><br/> -->
                     <div class="lstname">
-                      <input type="text" name="lastname" id="form_lastname" value="" class="form-control"
+                      <input type="text" name="name" id="form_lastname" value="" class="form-control"
                         placeholder="Nom *">
                     </div>
                   </div>
@@ -60,6 +67,16 @@
                   </div>
                 </div>
               </div>
+
+              <div class="col-sm-12 text-center" style="display: flex; justify-content: center;">
+								<div id="devis-form-response"></div>
+								<div class="form-group d-flex justify-content-center">
+								<div class="g-recaptcha" data-sitekey="{{ site.data.company.recaptcha.client}}">
+								</div>
+								<br />
+								<input style="display: none" type="submit" value="Submit" class="wpcf7-wpcf7-submit" />
+								</div>
+							</div>
 
 
               <div class="text-center">
